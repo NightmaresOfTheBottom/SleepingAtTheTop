@@ -1,0 +1,21 @@
+# Never commit therapy data or generated reports
+DATALOG/
+**/DATALOG/
+SETTINGS/
+*.edf
+Identification.json
+CurrentSettings.json
+exports/
+report_*.html
+*.csv
+
+# Notebook / Python clutter
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.DS_Store
+Thumbs.db
